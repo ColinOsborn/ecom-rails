@@ -73,3 +73,8 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+# Devise TODO: Organize all gems to be alphabetical
+gem "devise", "~> 4.9"
+# Fontawesome
+gem 'font-awesome-sass', '~> 6.5.1'
