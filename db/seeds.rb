@@ -11,5 +11,5 @@
 
 (1..10).each do |i|
   Category.create!(name: "Category #{i}", description: "unc a ullamcorper lectus. Vivamus ullamcorper rutrum pulvinar." +
-  "Donec maximus neque vitae tristique rutrum.")
+  " Donec maximus neque vitae tristique rutrum.")
 end
