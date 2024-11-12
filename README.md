@@ -12,12 +12,12 @@ Things you may want to cover:
 
 * Database creation `rails db:create & db:migrate`
 
-* Database initialization
+* Database initialization: see above
 
 * How to run the test suite: You can run `rspec` to run entire suite or `rspec <file path>` ex: `rspec spec/controllers/admin_controller_spec.rb`
 
 * Services (job queues, cache servers, search engines, etc.): TBD
 
-* Deployment instructions
+* Deployment instructions: TBD
 
 * Reference: https://www.youtube.com/watch?v=hURUMwdCWuI&t=1373s
