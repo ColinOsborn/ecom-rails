@@ -7,3 +7,6 @@
     <%= render @admin_category %>
   </div>
 </div>
+    <%= link_to "Edit Category", edit_admin_category_path(@admin_category), class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to 'Remove Category', admin_category_path(@admin_category), method: :delete, class: "ml-2 rounded-lg py-3 px-5 bg-red-50 inline-block font-medium", data: { confirm: 'Are you sure?' } %>
+    <%= link_to "Back to Categories", admin_categories_path, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
