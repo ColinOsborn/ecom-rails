@@ -7,9 +7,12 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
-# Categories creation
-
-(1..10).each do |i|
-  Category.create!(name: "Category #{i}", description: "unc a ullamcorper lectus. Vivamus ullamcorper rutrum pulvinar." +
-  " Donec maximus neque vitae tristique rutrum.")
-end
+# Categories assests creation
+drivetrains_image = "https://racycles.com/cdn/shop/files/SRAM-X0-EAGLE-T-TYPE-GROUPSET_f8b631f7-6ca9-4778-b932-0005b93a4568.jpg?v=1719527541&width=460"
+tires_image = "https://racycles.com/cdn/shop/files/MAXXIS-IKON-EXO-BLACK-DARK-TAN.jpg?v=1728680025&width=460"
+# Categories Creation
+Category.create!(name: "Drivetrains", description: "Discover the largest selection of bike groupsets at RA Cycles, where performance meets quality." image: drivetrains_image)
+Category.create!(name: "Tires", description: "We're proud to offer a vast selection of bike tires to suit any rider and any ride." image: tires_image)
+Category.create!(name: "Brakes", description: "Experience precision control with our wide selection of brakes, designed to suit a variety of riding styles and preferences" image: tires_image)
+Category.create!(name: "Saddles", description: "We're proud to offer a vast selection of bike tires to suit any rider and any ride." image: tires_image)
+Category.create!(name: "Saddles", description: "We're proud to offer a vast selection of bike tires to suit any rider and any ride." image: tires_image)
